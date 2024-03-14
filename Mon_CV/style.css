@@ -1,0 +1,55 @@
+/*body{
+
+    background-image: url(Image/Image_fond_d_écran.jpeg);
+    background-repeat: no-repeat;
+}*/
+
+body {
+    background-color: #f0f0f0;
+}
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+header h2, header h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+main {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+main h4 {
+    color: #009688;
+    transition: color 0.3s ease-in-out;
+}
+
+table {
+    width: 100%;
+    overflow: auto;
+}
+table td, table th {
+    padding: 10px;
+}
+table th {
+    background-color: #009688;
+    color: white;
+}
+
+
+footer {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
